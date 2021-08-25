@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
-<style>
-    .background{
-        background-color: beige;
-    }
-</style>
+
 <body>
     <h1>Elias's Portfolio</h1>
     <img src="/fiu.jpg" >
