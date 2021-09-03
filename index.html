@@ -1,0 +1,73 @@
+<!-- Elias Consalvo Portfolio project Sept/3/2021 
+    Sorry this code is a mess i was honestly just playing around with many different stuff and learning. This code is mostly for me.-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<script src="script.js"></script>
+<script src="slides.js"></script>
+
+<body >
+    
+    <!--start sidebar-->
+    <div id="sidebar">
+        <!-- sidebar button -->
+        <div class="butn" onclick="move()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+        <!-- buttons and interactions -->
+        <ul>
+            <div id="fondo" >
+                <li id="ele1" onmouseenter="change1()" onmouseleave="change1()" onclick="window.location.href='https://github.com/eliascons/PacMen-Exercise';">Pac-men
+                </li>
+
+                <li id="ele2" onmouseenter="change2()" onmouseleave="change2()" onclick="window.location.href='https://github.com/eliascons/eyesExercise';">Eyes
+                </li>
+
+                <li id="ele3" onmouseenter="change3()" onmouseleave="change3()" onclick="window.location.href='https://github.com/eliascons/busTracker';" >Bus-tracker</li>
+                <li id="ele4" onmouseenter="change4()" onmouseleave="change4()" onclick="window.location.href='https://www.linkedin.com/in/elias-consalvo-43b35a212/';">Linked-in<li>
+
+                <li id="ele5" onmouseenter="change5()" onmouseleave="change5()" onclick="window.location.href='https://youtu.be/F7VE2pZQtOk';">About me</li> 
+                
+                <li id="bio">Hi, my name is Elias Consalvo, I am a Computer Science student at Florida International University. This is my Portfolio, here I have posted some links to some of the projects made during the course.</li>
+            </div>
+            
+        </ul>
+    </div> 
+    <!--end sidebar-->
+    
+    <!-- start grid, images, text -->
+    <div id="grid-container">
+        
+        <div id="img-holder"> <!--start, img holder -->
+
+
+            <div class="slides fade">
+                <div class="numb"></div>
+                <img src="test3.jpg" style="width: 100%;"
+                style="height: 100%;"
+                style="object-fit: cover;">   
+            </div>
+            
+            
+        </div> <!-- end, img holder -->
+        
+
+    </div>
+
+    
+
+
+</body>
+</html>

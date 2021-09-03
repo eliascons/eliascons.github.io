@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg,#eede52, #e73c7e, #23d582, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+    
+}
+
+#sidebar{
+    width: 300px;
+    height: 100%;
+    background: black;
+    position: absolute;
+    left: -300px;
+    transition: .5s;
+    
+}
+
+#sidebar.active{
+    left: 0;
+    
+}
+
+#sidebar ul li{
+    list-style: none;
+    color: wheat;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 20px 15px;
+}
+
+#sidebar .butn{
+    position: absolute;
+    top: 30px;
+    left: 320px;
+}
+
+.butn span{
+    width: 25px;
+    height: 4px;
+    background: black;
+    display: block;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+#fondo{
+    display: grid;
+    background: black;
+    grid-template-columns: 1fr;
+    
+
+}
+
+#ele1{
+    border: black solid;
+    background: black;
+
+}
+
+#ele2{
+    border: black solid;
+    
+
+}
+#ele3{
+    border: black solid;
+}
+
+#ele4{
+    border: black solid;
+}
+
+#fondo .camb{
+    background: dimgrey;
+}
+
+#fondo #ele2.camb{
+    background: dimgrey;
+}
+#fondo #ele3.camb{
+    background: dimgrey;
+}
+#fondo #ele4.camb{
+    background: dimgrey;
+}
+#fondo #ele5.camb{
+    background: dimgrey;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 1px;
+
+}
+
+#img-holder{
+
+    margin-top: 5em;
+    grid-row: 4/6;
+    grid-column: 4/5;
+    border: solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 200px;
+    
+}
+
+
+
+
+.test{
+    margin-top: 1em;
+    display: block;
+    border: solid black;
+    padding-top: 5em;
+    margin-left: 50em;
+}
+
+
+
+
+
+
